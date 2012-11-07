@@ -2,15 +2,20 @@
   "name": "mcvsd-powerschool-notify",
   "version": "0.0.1",
   "description": "MCVSD PowerSchool notification system, powered by node.js",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/zacharyliu/mcvsd-powerschool-notify.git"
   },
   "author": "Zachary Liu",
-  "license": "BSD"
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "jade": "*",
+    "less-middleware": "*",
+    "express": "3.0.1",
+    "jquery": "~1.7.3"
+  }
 }
