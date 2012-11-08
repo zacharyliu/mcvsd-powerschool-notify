@@ -16,6 +16,6 @@
     "jade": "*",
     "less-middleware": "*",
     "express": "3.0.1",
-    "jquery": "~1.7.3"
+    "cheerio": "~0.10.1"
   }
 }
