@@ -144,3 +144,8 @@ class ps_model
 
         list.push item
       callback list
+
+  gpa: (callback) ->
+    @$get @paths.main, ($) ->
+      gpa = $('#quickLookup table[border="0"]').find('td').eq(0).text().match(/\: ?([0-9\.]+)$/)[1]
+      callback gpa
